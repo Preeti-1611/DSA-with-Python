@@ -19,10 +19,9 @@ def getSecondLargest(arr):
             secondLargest = arr[i]
 
     return secondLargest
-
-if __name__ == "__main__": # without this also program works
-    arr = [12, 35, 1, 10, 34, 1]
-    print(getSecondLargest(arr))
+ # without this also program works
+arr = [1,10,2,0,10]
+print(getSecondLargest(arr))
 
 
 
