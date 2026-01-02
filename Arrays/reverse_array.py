@@ -1,3 +1,9 @@
+# You are given an array of integers arr[]. You have to reverse the given array.
+
+# Note: Modify the array in place.
+
+
+
 def Reversearray(arr):
     left = 0
     right = len(arr)-1
