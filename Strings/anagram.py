@@ -1,3 +1,7 @@
+# Given two non-empty strings s1 and s2 of lowercase letters, determine if they are anagrams — i.e., if 
+# they contain the same characters with the same frequencies.
+
+
 def are_anagrams(s1, s2):
     if len(s1) != len(s2):
         return False
