@@ -45,3 +45,12 @@ def nonRepeatingChar(s):
 # Example
 s = "geeksforgeeks"
 print(nonRepeatingChar(s))  # Output: f
+
+
+
+
+
+name =['neel','preeti']
+
+for i in name:
+    print(i[0])
