@@ -22,3 +22,5 @@ def Twosum(num,target):
 num = [4,5,7,3,4,7]
 target = 10
 print(Twosum(num,target))
+
+
