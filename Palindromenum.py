@@ -1,4 +1,4 @@
-def isPenlindrome(num):
+def isPalindrome(num):
     x = num
     result = 0
     while x >0 :
@@ -10,4 +10,4 @@ def isPenlindrome(num):
 
 
 num = 1211
-print(isPenlindrome(num))
+print(isPalindrome(num))
