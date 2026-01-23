@@ -15,6 +15,7 @@ num =[3,5,6,8,9,2,1]
 print(DesecSelection(num))
       
 
+#Asecding order
 def AsenSelection(num):
     n = len(num)
     for i in range(0,n):
