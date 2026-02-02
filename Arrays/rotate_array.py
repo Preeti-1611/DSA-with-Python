@@ -24,7 +24,7 @@ def reverse(arr, start, end):
         end -= 1
 
 
-arr = [3, 6, 2, 3, 4, 0, 5]
+arr = [4,1,3,8,7]
 rotate_left(arr, 3)
 print(arr)
 
@@ -44,7 +44,7 @@ def rotate_right(arr, d):
     n = len(arr)
     
     # Handle cases where d > n
-    d = d % n
+    
 
     # Step 1: Reverse the entire array
     reverse(arr, 0, n - 1)
@@ -57,6 +57,6 @@ def rotate_right(arr, d):
 
 
 # Example
-arr = [1, 2, 3, 4, 5, 6, 7]
+arr = [4,1,3,8,7]
 rotate_right(arr, 2)
 print(arr)

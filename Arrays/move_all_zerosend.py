@@ -18,5 +18,5 @@ def Allzeroend(arr):
     return arr
 
 
-arr = [3, 5, 0, 4, 0, 2]
+arr = [3, 5, 0, 4, 0, 2,0,9]
 print(Allzeroend(arr))
